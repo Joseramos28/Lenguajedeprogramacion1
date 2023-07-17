@@ -1,7 +1,7 @@
 //determianr si es o no mayor de edad
 #include<iostream>
 using namespace std;
-main(){
+int main(){
     int edad;
     cout<<"ingrese su edad: ";cin>>edad;
     if(edad>=18){
@@ -10,4 +10,6 @@ main(){
     else if(edad<18){
         cout<<"usted es menor de edad ";
     }
+    
+    return 0;
 }
